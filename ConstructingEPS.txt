@@ -1,0 +1,3 @@
+How to construct EPS data from P/E and Share Price:
+
+data["EPS"] = data["PRICE"]*(1/(data["PE"]))
