@@ -5,7 +5,7 @@ Multi-factor model helps us significantly reduce the dimension of our covariance
 
 # In this repo
 > To fulfill the implementation goal for our MFMs, we separate the procedure into three phases.
-* `prep` is the part for Phase I: Data Aggregate and Factor Construction
+* `prep` is the part for **Phase I: Data Aggregate and Factor Construction**
 > Phase I defines data structure for the project and calculates factor loadings.
-* `regr_app` is the part for Phase II: Factor Return Estimation and Phase III: Analysis
+* `regr_app` is the part for **Phase II: Factor Return Estimation** and **Phase III: Analysis**
 > Phase II & III complete the project by doing regression of stock returns on factor loadings, then, derive the results of MFMs for portfolio construction and analysis.
